@@ -42,14 +42,17 @@ ul{
   margin: auto;
 }
 
-a.button{
-  height: 38px;
-  color: #ffffff;
-  background-color: #e8491d;
-  text-decoration: none;
-  border: none;
-  padding-left: 20px;
-  padding-right: 20px;
+img.button{
+  width: 300px;
+  height: 300px;
+  padding-top: 25px;
+  padding-left: 50px;
+}
+
+#consumertext{
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-left: 125px;
 }
 
 a.button:active{
