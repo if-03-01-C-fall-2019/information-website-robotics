@@ -47,11 +47,6 @@ img.button{
   margin-bottom: 10px;
 }
 
-.robotstitle{
-  text-align: center;
-  margin: auto;
-}
-
 /*******************DIFFERENT_TYPES_OF_ROBOTS-CSS*******************/
 .consumertext{
   font-family: sans-serif;
@@ -72,6 +67,12 @@ img.button{
 
 a.button:active{
   border: 2px inset #ffffff;
+}
+
+#drone-illustration{
+  height: 600px;
+  width: 800px;
+  padding-left: 250px;
 }
 /*******************HEADER*******************/
 header{
@@ -157,11 +158,21 @@ header a:hover{
   width: 250px;
 }
 
-#robotsection{
+.robotstitle{
+  text-align: center;
+  margin: auto;
+}
+
+.robotsection{
+  font-size: 30px;
   padding: 15px;
-  color: #ffffff;
   background: #35424a;
   margin-top: 20px;
+}
+
+.robotsurl{
+  text-decoration: none;
+  color: #ffffff;
 }
 
 /*******************SIDEBAR*******************/
@@ -184,4 +195,127 @@ footer{
   color: #ffffff;
   background-color: #e8491d;
   text-align: center;
+}
+
+/*******************ROBOT_HISTORY-CSS*******************/
+.headlinesection{
+  font-size: 25px;
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  text-align: center;
+}
+
+.parallax{
+  background-image: url("firstrobot.jpg");
+
+  min-height: 800px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.erictherobot{
+  background-image: url("britainsfirstrobot.jpg");
+
+  min-height: 700px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.teslasboat{
+  background-image: url("teslasboat.jpg");
+
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.directdrivearm{
+  background-image: url("firstdirectdrivearm.jpg");
+
+  min-height: 700px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cyberknife{
+  background-image: url("cyberknife.jpg");
+
+  min-height: 700px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.modernrobot{
+  background-image: url("modernrobots.jpg");
+
+  min-height: 700px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#history{
+  color: #777;
+  background-color: white;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+#britainsfirstrobot{
+  color: #777;
+  background-color: white;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+#teslasboattext{
+  color: #777;
+  background-color: white;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+#directdrivearmtext{
+  color: #777;
+  background-color: white;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+#cyberknifetext{
+  color: #777;
+  background-color: white;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+#modernrobottext{
+  color: #777;
+  background-color: white;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
 }
