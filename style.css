@@ -1,3 +1,4 @@
+/*******************MAIN-CSS*******************/
 body{
   font-family: Arial,Helvetica, sans-serif;
   font-size: 15px;
@@ -7,18 +8,20 @@ body{
   background-color: #f4f4f4;
 }
 
-/*Global*/
+/*******************GLOBAL-CLASS*******************/
 .container{
   width: 80%;
   margin:auto;
   overflow: hidden;
 }
 
+/*******************LINKS*******************/
 ul{
   margin:0;
   padding: 0;
 }
 
+/*******************BUTTONS*******************/
 .button1{
   height: 38px;
   background: #e8491d;
@@ -27,6 +30,13 @@ ul{
   padding-right: 20px;
   color: #ffffff;
   text-decoration: none;
+}
+
+img.button{
+  width: 300px;
+  height: 300px;
+  padding-top: 25px;
+  padding-left: 545px;
 }
 
 .dark{
@@ -42,49 +52,28 @@ ul{
   margin: auto;
 }
 
-img.button{
-  width: 300px;
-  height: 300px;
-  padding-top: 25px;
-  padding-left: 50px;
-}
-
+/*******************CONSUMERROBOT-CSS*******************/
 #consumertext{
   font-family: sans-serif;
   font-weight: bold;
-  padding-left: 125px;
+  text-align: center;
 }
 
-img.image{
+.image1{
   width: 300px;
   height: 300px;
-  padding-left: 5px;
+  padding-left: 210px;
+  margin: 5px;
 }
 
-#h3{
-  padding-left: 85px
-}
-
-*{
-  box-sizing: border-box;
-}
-
-.column{
-  float: left;
-  width:33.33%;
-  padding: 5px;
-}
-
-.row::after{
-  content: "";
-  clear: both;
-  display: table;
+.h3{
+  text-align: center;
 }
 
 a.button:active{
   border: 2px inset #ffffff;
 }
-/*Header*/
+/*******************HEADER*******************/
 header{
   background:#35424a;
   color: #ffffff;
@@ -129,7 +118,7 @@ header a:hover{
   font-weight: bold;
 }
 
-/*Showcase*/
+/*******************SHOWCASE*******************/
 #showcase{
   min-height:400px;
   background:url('showcase.jpg') no-repeat 0 -400px;
@@ -175,7 +164,7 @@ header a:hover{
   margin-top: 20px;
 }
 
-/*Sidebar*/
+/*******************SIDEBAR*******************/
 
 aside#sidebar{
   float: right;
@@ -183,7 +172,7 @@ aside#sidebar{
   margin-top: 10px;
 }
 
-/*Main-col*/
+/*******************MAIN-COL*******************/
 article#main-col{
   float:left;
   width: 65%;
