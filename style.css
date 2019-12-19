@@ -158,6 +158,14 @@ header a:hover{
   width: 250px;
 }
 
+#centersections {
+  position: absolute;
+  width: 70%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
 .robotstitle{
   text-align: center;
   margin: auto;
