@@ -74,7 +74,7 @@ a.button:active{
   width: 800px;
   padding-left: 250px;
 }
-/*******************HEADER*******************/
+/**************************************/
 header{
   background:#35424a;
   color: #ffffff;
@@ -169,6 +169,11 @@ header a:hover{
 .robotstitle{
   text-align: center;
   margin: auto;
+  transition: all 0.4s;
+}
+
+.robotstitle:hover{
+  color: #35424a;
 }
 
 .robotsection{
@@ -193,7 +198,6 @@ aside#sidebar{
 
 /*******************MAIN-COL*******************/
 article#main-col{
-  float:left;
   width: 65%;
 }
 
@@ -203,6 +207,8 @@ footer{
   color: #ffffff;
   background-color: #e8491d;
   text-align: center;
+  width: 140%;
+  margin-left: -22%;
 }
 
 /*******************ROBOT_HISTORY-CSS*******************/
@@ -326,4 +332,16 @@ footer{
   text-align: center;
   padding: 50px 80px;
   text-align: justify;
+}
+
+/*******************SUBSCRIBEPAGE-CSS*******************/
+#subscribe{
+  font-size: 30px;
+  padding: 15px;
+  background: #35424a;
+  margin-top: 20px;
+  color: white;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
 }
