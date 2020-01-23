@@ -306,6 +306,11 @@ footer{
   margin-left: -22%;
 }
 
+.contactslink{
+  text-decoration: none;
+  color: white;
+}
+
 /*******************ROBOT_HISTORY-CSS*******************/
 .headlinesection{
   font-size: 25px;
