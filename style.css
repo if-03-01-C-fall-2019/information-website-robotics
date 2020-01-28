@@ -187,7 +187,7 @@ header a:hover{
 /*******************SHOWCASE*******************/
 #showcase{
   min-height:400px;
-  background:url('showcase2.jpg') no-repeat 45px -365px;
+  background:url('showcase2.jpg') no-repeat 0px -365px;
   text-align: center;
   color: #ffffff;
 }
@@ -444,4 +444,31 @@ footer{
   margin-left: 200px;
   margin-right: 200px;
   text-align: center;
+}
+
+/*******************CONTACTS-CSS*******************/
+#contactsheader{
+  text-align: center;
+}
+
+/*******************ANIMATIONS-CSS*******************/
+.fade-in {
+	-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
